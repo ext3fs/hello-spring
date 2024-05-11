@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="ko" xmlns:th="https://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>createMemberForm</title>
+</head>
+<body>
+<div class="container">
+  <form action="/members/new" method="post">
+    <fieldset class="form-group">
+      <legend>회원 가입</legend>
+      <label for="name">이름 : </label>
+      <input type="text" name="name" id="name" placeholder="이름을 입력하세요">
+      <button type="submit">등록</button>
+    </fieldset>
+  </form>
+</div>
+</body>
+</html>
