@@ -22,7 +22,7 @@ class MemberServiceIntegrationTest {
 
 
   @Test
-  void join() {
+  void 회원가입() {
     //given
     Member member = new Member();
     member.setName("young");
@@ -36,7 +36,7 @@ class MemberServiceIntegrationTest {
   }
 
   @Test
-  void joinException() {
+  void 회원가입_예외() {
     //given
     Member member1 = new Member();
     member1.setName("young");
